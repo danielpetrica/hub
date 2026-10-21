@@ -1,0 +1,23 @@
+name: danielpetrica/php2shell-user-agent
+description: "php2shell tooling user-agent: requests advertising 'php2shell-<digits>' in the User-Agent header, used by commodity PHP upload-progress exploitation kits"
+rules:
+  - zones:
+      - HEADERS
+    variables:
+      - User-Agent
+    match:
+      type: regex
+      value: (?i)php2shell-[0-9]{1,20}
+labels:
+  remediation: true
+  type: exploit
+  service: http
+  confidence: 5
+  spoofable: 1
+  behavior: "http:exploit"
+  label: "php2shell exploitation kit"
+  classification:
+    - attack.T1190
+    - cve.CVE-2026-109618
+    - cve.CVE-2026-109619
+    - cwe.CWE-416

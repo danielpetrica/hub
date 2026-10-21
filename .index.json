@@ -391,6 +391,24 @@
           "digest": "ddad5c18125c5753b23b52f55598911b66effaddc9c02286775061609901dbeb"
         }
       }
+    },
+    "danielpetrica/php-upload-progress": {
+      "author": "danielpetrica",
+      "content": "bmFtZTogZGFuaWVscGV0cmljYS9waHAtdXBsb2FkLXByb2dyZXNzCmRlZmF1bHRfcmVtZWRpYXRpb246IGJhbgpibG9ja2VkX2h0dHBfY29kZTogNDAzCmluYmFuZF9ydWxlczoKICAtIGNyb3dkc2VjdXJpdHkvYmFzZS1jb25maWcKICAtIGRhbmllbHBldHJpY2EvcGhwLXVwbG9hZC1wcm9ncmVzcwogIC0gZGFuaWVscGV0cmljYS9waHAtaW5pLWluamVjdGlvbi1wcm9iZQogIC0gZGFuaWVscGV0cmljYS9waHAyc2hlbGwtdXNlci1hZ2VudAppbmJhbmRfb3B0aW9uczoKICBkaXNhYmxlX2JvZHlfaW5zcGVjdGlvbjogZmFsc2UKICByZXF1ZXN0X2JvZHlfaW5fbWVtb3J5X2xpbWl0OiAxMDQ4NTc2Cg==",
+      "labels": null,
+      "long_description": "IyBkYW5pZWxwZXRyaWNhL3BocC11cGxvYWQtcHJvZ3Jlc3MKCkluLWJhbmQgQXBwU2VjIGNvbmZpZ3VyYXRpb24gZm9yIHRoZSBQSFAgYHNlc3Npb24udXBsb2FkX3Byb2dyZXNzYCBhYnVzZSBjaGFpbi4KCkxvYWRzIGBjcm93ZHNlY3VyaXR5L2Jhc2UtY29uZmlnYCAocmVxdWlyZWQgdG8gZGVjb2RlCmBhcHBsaWNhdGlvbi94LXd3dy1mb3JtLXVybGVuY29kZWRgIGFuZCBgbXVsdGlwYXJ0L2Zvcm0tZGF0YWAgYm9kaWVzKSBwbHVzOgoKLSBgZGFuaWVscGV0cmljYS9waHAtdXBsb2FkLXByb2dyZXNzYCAtIHRoZSBgUEhQX1NFU1NJT05fVVBMT0FEX1BST0dSRVNTYAogIG11bHRpcGFydCBzaWduYXR1cmUKLSBgZGFuaWVscGV0cmljYS9waHAtaW5pLWluamVjdGlvbi1wcm9iZWAgLSBQSFAgd3JhcHBlciBhbmQgaW5pIGRpcmVjdGl2ZQogIGluamVjdGlvbiBwcm9iZXMKLSBgZGFuaWVscGV0cmljYS9waHAyc2hlbGwtdXNlci1hZ2VudGAgLSB0aGUgYHBocDJzaGVsbC08ZGlnaXRzPmAgdXNlci1hZ2VudAogIHVzZWQgYnkgdGhlIGNvbW1vZGl0eSBraXRzIG92ZXIgdGhpcyB0ZWNobmlxdWUKCkRlZmF1bHQgcmVtZWRpYXRpb24gaXMgYGJhbmA6IHRoZXNlIHNpZ25hdHVyZXMgb25seSBldmVyIG9jY3VyIGluIGF0dGFjawp0cmFmZmljLCBhbmQgdGhlIHVuZGVybHlpbmcgdGVjaG5pcXVlIChhdHRhY2tlci1jb250cm9sbGVkIGNvbnRlbnQgd3JpdHRlbiBpbnRvCmEgc2Vzc2lvbiBmaWxlLCB0aGVuIGluY2x1ZGVkKSBpcyBhIGRpcmVjdCBMRkktdG8tUkNFIHBhdGguCgpCZWNhdXNlIHRoZSBkZXRlY3Rpb24gaXMgaW4tYmFuZCwgdGhlIHJlcXVlc3QgaXMgYmxvY2tlZCAqYmVmb3JlKiBpdCByZWFjaGVzCnRoZSBhcHBsaWNhdGlvbiAtIHVubGlrZSB0aGUgbG9nLWJhc2VkIHNjZW5hcmlvIGluIHRoaXMgY29sbGVjdGlvbiwgd2hpY2ggY2FuCm9ubHkgYWxlcnQgYWZ0ZXIgaXQgaGFzIGFscmVhZHkgYmVlbiBzZXJ2ZWQuCgojIyBVc2UKCmBgYHlhbWwKIyBzZWN0aW9uOiBhY3F1aXMuZC9hcHBzZWMueWFtbApzb3VyY2U6IGFwcHNlYwpsaXN0ZW5fYWRkcjogMC4wLjAuMDo3NDIyCmFwcHNlY19jb25maWdzOgogIC0gZGFuaWVscGV0cmljYS9waHAtdXBsb2FkLXByb2dyZXNzCmxhYmVsczoKICB0eXBlOiBhcHBzZWMKYGBgCgpXaXRoIHRoZSBUcmFlZmlrIGJvdW5jZXIgcGx1Z2luOgoKYGBgeWFtbApjcm93ZHNlY0FwcHNlY0VuYWJsZWQ6IHRydWUKY3Jvd2RzZWNBcHBzZWNIb3N0OiBjcm93ZHNlYzo3NDIyCmBgYAoKSWYgeW91IHByZWZlciBhIGNoYWxsZW5nZS1maXJzdCBwcm9maWxlLCBzZXQgYGRlZmF1bHRfcmVtZWRpYXRpb246IGNhcHRjaGFgLgo=",
+      "path": "appsec-configs/danielpetrica/php-upload-progress.yaml",
+      "version": "0.2",
+      "versions": {
+        "0.1": {
+          "deprecated": false,
+          "digest": "af8bfd22e1787136c197078dd7199d90b8adce8a13ac0c2fc4100aaca8b358dd"
+        },
+        "0.2": {
+          "deprecated": false,
+          "digest": "091fb75a12bbf9a5c2fd46b3cd04cf5db930c488f38eff8553a32e1fe0382607"
+        }
+      }
     }
   },
   "appsec-rules": {
@@ -7550,6 +7568,110 @@
           "digest": "be080b393101118193c578d32a142ec239e439a7d6d57a0d2f58302c17b5707f"
         }
       }
+    },
+    "danielpetrica/php-ini-injection-probe": {
+      "author": "danielpetrica",
+      "content": "bmFtZTogZGFuaWVscGV0cmljYS9waHAtaW5pLWluamVjdGlvbi1wcm9iZQpkZXNjcmlwdGlvbjogIlBIUCB3cmFwcGVyIC8gaW5pIGRpcmVjdGl2ZSBpbmplY3Rpb24gcHJvYmluZzogcGhwOi8vZmlsdGVyLCBwaHA6Ly9pbnB1dCwgYXV0b19wcmVwZW5kX2ZpbGUsIGFsbG93X3VybF9pbmNsdWRlLCBQSFBfVkFMVUUsIHBocC1jZ2kgYXJndW1lbnQgaW5qZWN0aW9uIGFuZCAlQUQlQUQgc29mdC1oeXBoZW4gb2JmdXNjYXRpb24gc2VlbiBpbiB0aGUgcmVxdWVzdCBVUkkiCnJ1bGVzOgogIC0gem9uZXM6CiAgICAgIC0gVVJJX0ZVTEwKICAgIHRyYW5zZm9ybToKICAgICAgLSB1cmxkZWNvZGUKICAgICAgLSBsb3dlcmNhc2UKICAgIG1hdGNoOgogICAgICB0eXBlOiByZWdleAogICAgICB2YWx1ZTogKHBocDovLyhmaWx0ZXJ8aW5wdXQpfHBocCUzYSUyZiUyZihmaWx0ZXJ8aW5wdXQpfGF1dG9fcHJlcGVuZF9maWxlfGFsbG93X3VybF9pbmNsdWRlfHBocF92YWx1ZXxwaHBfYWRtaW5fdmFsdWV8L2NnaS1iaW4vcGhwfCVhZCVhZCkKICAtIHpvbmVzOgogICAgICAtIEJPRFlfQVJHU19OQU1FUwogICAgdHJhbnNmb3JtOgogICAgICAtIGxvd2VyY2FzZQogICAgbWF0Y2g6CiAgICAgIHR5cGU6IHJlZ2V4CiAgICAgIHZhbHVlOiAocGhwX3ZhbHVlfHBocF9hZG1pbl92YWx1ZXxhdXRvX3ByZXBlbmRfZmlsZXxhbGxvd191cmxfaW5jbHVkZSkKbGFiZWxzOgogIHJlbWVkaWF0aW9uOiB0cnVlCiAgdHlwZTogZXhwbG9pdAogIHNlcnZpY2U6IGh0dHAKICBjb25maWRlbmNlOiAzCiAgc3Bvb2ZhYmxlOiAxCiAgYmVoYXZpb3I6ICJodHRwOmV4cGxvaXQiCiAgbGFiZWw6ICJQSFAgd3JhcHBlciAvIGluaSBpbmplY3Rpb24gcHJvYmUiCiAgY2xhc3NpZmljYXRpb246CiAgICAtIGF0dGFjay5UMTE5MAo=",
+      "description": "PHP wrapper / ini directive injection probing: php://filter, php://input, auto_prepend_file, allow_url_include, PHP_VALUE, php-cgi argument injection and %AD%AD soft-hyphen obfuscation seen in the request URI",
+      "labels": {
+        "behavior": "http:exploit",
+        "classification": [
+          "attack.T1190"
+        ],
+        "confidence": 3,
+        "label": "PHP wrapper / ini injection probe",
+        "remediation": true,
+        "service": "http",
+        "spoofable": 1,
+        "type": "exploit"
+      },
+      "long_description": "QXBwU2VjIHJ1bGUgZGV0ZWN0aW5nIFBIUCB3cmFwcGVyIHNwYXduaW5nIGFuZCBpbmkgZGlyZWN0aXZlIGluamVjdGlvbiBwcm9iZXMuCgpJbnNwZWN0aW5nIHRoZSBmdWxsIFVSSSAoVVJMLWRlY29kZWQsIGNhc2UtaW5zZW5zaXRpdmUpIGFuZCBtdWx0aXBhcnQgYXJndW1lbnQKbmFtZXMgZm9yOgoKLSBgcGhwOi8vZmlsdGVyYCwgYHBocDovL2lucHV0YCAoYW5kIHRoZSBVUkwtZW5jb2RlZCBmb3JtcykgLSBMRkkgZmlsdGVyIGNoYWlucwotIGBhdXRvX3ByZXBlbmRfZmlsZWAsIGBhbGxvd191cmxfaW5jbHVkZWAgLSBpbmkgZGlyZWN0aXZlIGluamVjdGlvbgotIGBQSFBfVkFMVUVgLCBgcGhwX2FkbWluX3ZhbHVlYCAtIEZhc3RDR0kgcGFyYW0gaW5qZWN0aW9uCi0gYC9jZ2ktYmluL3BocGAsIGAlQUQlQURgIC0gUEhQLUNHSSBhcmd1bWVudCBpbmplY3Rpb24gKENWRS0yMDI0LTQ1NzcpCgojIyBFeGFtcGxlcwoKYGBgaHR0cApHRVQgL2luZGV4LnBocD9wPXBocDovL2ZpbHRlci9yZWFkPWNvbnZlcnQuYmFzZTY0LWVuY29kZS9yZXNvdXJjZT0uLi8uLi9ldGMvcGFzc3dkIEhUVFAvMS4xCkdFVCAvaW5kZXgucGhwP2F1dG9fcHJlcGVuZF9maWxlPWRhdGE6dGV4dC9wbGFpbjtiYXNlNjQseHh4IEhUVFAvMS4xClBPU1QgL2NnaS1iaW4vcGhwLWNnaT8lQURkK2FsbG93X3VybF9pbmNsdWRlJTNET24rJUFEZCthdXRvX3ByZXBlbmRfZmlsZSUzRGh0dHA6Ly9ldmlsLmV4YW1wbGUveCBIVFRQLzEuMQpgYGAKCkludGVuZGVkIHRvIGJlIGV2YWx1YXRlZCB3aXRoIGFuIGluLWJhbmQgcmVtZWRpYXRpb24gb2YgYGJhbmA7IHNjYW5uZXJzIHNlbmQKdGhlc2UgY29uc3RhbnRseSwgYW5kIHJlYWwgcmVxdWVzdHMgbmV2ZXIgY29udGFpbiBpbmkgZGlyZWN0aXZlIG5hbWVzLgo=",
+      "path": "appsec-rules/danielpetrica/php-ini-injection-probe.yaml",
+      "version": "0.2",
+      "versions": {
+        "0.1": {
+          "deprecated": false,
+          "digest": "a5362ce8eac7fa7ace3fb8b5bfaba48acc7ee62c5f8886a0dd7736ca742d569f"
+        },
+        "0.2": {
+          "deprecated": false,
+          "digest": "c3a2dd1cb11fe1170284707e3d8ef4a8ce3d3358b0826c2051de075ceeedb25c"
+        }
+      }
+    },
+    "danielpetrica/php-upload-progress": {
+      "author": "danielpetrica",
+      "content": "bmFtZTogZGFuaWVscGV0cmljYS9waHAtdXBsb2FkLXByb2dyZXNzCmRlc2NyaXB0aW9uOiAiUEhQIHNlc3Npb24udXBsb2FkX3Byb2dyZXNzIGFidXNlIChDVkUtMjAyNi0xMDk2MTggLyBDVkUtMjAyNi0xMDk2MTkpOiBtdWx0aXBhcnQgYm9keSBjYXJyeWluZyB0aGUgUEhQX1NFU1NJT05fVVBMT0FEX1BST0dSRVNTIGZpZWxkLiBDb21iaW5lZCB3aXRoIGFueSBMRkkgdGhpcyB5aWVsZHMgUkNFLiBOZWFyLXplcm8gZmFsc2UgcG9zaXRpdmVzOiBubyBsZWdpdGltYXRlIGFwcGxpY2F0aW9uIHVzZXMgdGhpcyBwYXJ0IG5hbWUuIEJyb2FkZXIgdGhhbiBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNi0xMDk2MTgsIHdoaWNoIGFkZGl0aW9uYWxseSByZXF1aXJlcyBhIGZpbGVuYW1lIGFuZCBub24tZW1wdHkgcGF5bG9hZDsgb3VycyBtYXRjaGVzIG9uIHRoZSBmaWVsZCBuYW1lIGFsb25lLiIKcnVsZXM6CiAgLSBhbmQ6CiAgICAgIC0gem9uZXM6CiAgICAgICAgICAtIE1FVEhPRAogICAgICAgIG1hdGNoOgogICAgICAgICAgdHlwZTogZXF1YWxzCiAgICAgICAgICB2YWx1ZTogUE9TVAogICAgICAtIHpvbmVzOgogICAgICAgICAgLSBCT0RZX0FSR1NfTkFNRVMKICAgICAgICB0cmFuc2Zvcm06CiAgICAgICAgICAtIGxvd2VyY2FzZQogICAgICAgIG1hdGNoOgogICAgICAgICAgdHlwZTogY29udGFpbnMKICAgICAgICAgIHZhbHVlOiBwaHBfc2Vzc2lvbl91cGxvYWRfcHJvZ3Jlc3MKbGFiZWxzOgogIHJlbWVkaWF0aW9uOiB0cnVlCiAgdHlwZTogZXhwbG9pdAogIHNlcnZpY2U6IGh0dHAKICBjb25maWRlbmNlOiA0CiAgc3Bvb2ZhYmxlOiAwCiAgYmVoYXZpb3I6ICJodHRwOmV4cGxvaXQiCiAgbGFiZWw6ICJQSFAgc2Vzc2lvbi51cGxvYWRfcHJvZ3Jlc3MgZXhwbG9pdCBhdHRlbXB0IgogIGNsYXNzaWZpY2F0aW9uOgogICAgLSBhdHRhY2suVDExOTAKICAgIC0gY3ZlLkNWRS0yMDI2LTEwOTYxOAogICAgLSBjdmUuQ1ZFLTIwMjYtMTA5NjE5CiAgICAtIGN3ZS5DV0UtNDE2Cg==",
+      "description": "PHP session.upload_progress abuse (CVE-2026-109618 / CVE-2026-109619): multipart body carrying the PHP_SESSION_UPLOAD_PROGRESS field. Combined with any LFI this yields RCE. Near-zero false positives: no legitimate application uses this part name. Broader than crowdsecurity/vpatch-CVE-2026-109618, which additionally requires a filename and non-empty payload; ours matches on the field name alone.",
+      "labels": {
+        "behavior": "http:exploit",
+        "classification": [
+          "attack.T1190",
+          "cve.CVE-2026-109618",
+          "cve.CVE-2026-109619",
+          "cwe.CWE-416"
+        ],
+        "confidence": 4,
+        "label": "PHP session.upload_progress exploit attempt",
+        "remediation": true,
+        "service": "http",
+        "spoofable": 0,
+        "type": "exploit"
+      },
+      "long_description": "QXBwU2VjIHJ1bGUgZGV0ZWN0aW5nIHRoZSBQSFAgYHNlc3Npb24udXBsb2FkX3Byb2dyZXNzYCBhYnVzZSB0ZWNobmlxdWUuCgpXaXRoIGBzZXNzaW9uLnVwbG9hZF9wcm9ncmVzcy5lbmFibGVkYCBsZWZ0IG9uICh0aGUgUEhQIGRlZmF1bHQpLCB0aGUgbmFtZSBvZiBhCm11bHRpcGFydCBwYXJ0IGlzIHVzZWQgYXMgdGhlIHNlc3Npb24ga2V5IHByZWZpeCBhbmQgaXRzICoqY29udGVudCoqIGlzIHdyaXR0ZW4KaW50byB0aGUgc2Vzc2lvbiBmaWxlLiBBbiBhdHRhY2tlciBzZW5kczoKCmBgYGh0dHAKUE9TVCAvIEhUVFAvMS4xCkhvc3Q6IHZpY3RpbS5leGFtcGxlCkNvbnRlbnQtVHlwZTogbXVsdGlwYXJ0L2Zvcm0tZGF0YTsgYm91bmRhcnk9LS0tLXgKCi0tLS0tLXgKQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJQSFBfU0VTU0lPTl9VUExPQURfUFJPR1JFU1MiCgpwd25lZAotLS0tLS14CkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iZmlsZSI7IGZpbGVuYW1lPSJzZXNzX3Rlc3QiCgo8P3BocCBzeXN0ZW0oJF9HRVRbJ2MnXSk7ID8+Ci0tLS0tLXgtLQpgYGAKCkNvbWJpbmVkIHdpdGggYW55IGxvY2FsIGZpbGUgaW5jbHVzaW9uIChMRkkpLCBsb2cgcG9pc29uaW5nIG9yIHNlc3Npb24tZmlsZQppbmNsdWRpbmcgcHJpbWl0aXZlLCB0aGUgYXR0YWNrZXItY29udHJvbGxlZCBzZXNzaW9uIGZpbGUgY29udGFpbnMgUEhQIGNvZGUgYW5kCmJlY29tZXMgUkNFLiBUaGlzIHJ1bGUgZGV0ZWN0cyB0aGUgcHJlc2VuY2Ugb2YgdGhlIGBQSFBfU0VTU0lPTl9VUExPQURfUFJPR1JFU1NgCnBhcnQgbmFtZSBpbiB0aGUgbXVsdGlwYXJ0IGJvZHksIHdoaWNoIG5vIGxlZ2l0aW1hdGUgYXBwbGljYXRpb24gdXNlcy4KClRlbXBvcmFyeSBoYXJkZW5pbmcgd2hpbGUgdGhlIHVuZGVybHlpbmcgdnVsbmVyYWJpbGl0eSBpcyBiZWluZyBmaXhlZDoKCmBgYGluaQpzZXNzaW9uLnVwbG9hZF9wcm9ncmVzcy5lbmFibGVkID0gT2ZmCmBgYAo=",
+      "path": "appsec-rules/danielpetrica/php-upload-progress.yaml",
+      "version": "0.3",
+      "versions": {
+        "0.1": {
+          "deprecated": false,
+          "digest": "e0781dd15f2257faad7dcbad6c07805ccc8f524cdab677097a7f7082177e2314"
+        },
+        "0.2": {
+          "deprecated": false,
+          "digest": "f9fc2ab0d669176d4fdb6ffa8dc8b10e28126bbb703d16dc5bfd137b04d5a7f5"
+        },
+        "0.3": {
+          "deprecated": false,
+          "digest": "cb8f4552838b26b1c4cac89bd8c55f30b3971288e085c5639bd003ca123b104c"
+        }
+      }
+    },
+    "danielpetrica/php2shell-user-agent": {
+      "author": "danielpetrica",
+      "content": "bmFtZTogZGFuaWVscGV0cmljYS9waHAyc2hlbGwtdXNlci1hZ2VudApkZXNjcmlwdGlvbjogInBocDJzaGVsbCB0b29saW5nIHVzZXItYWdlbnQ6IHJlcXVlc3RzIGFkdmVydGlzaW5nICdwaHAyc2hlbGwtPGRpZ2l0cz4nIGluIHRoZSBVc2VyLUFnZW50IGhlYWRlciwgdXNlZCBieSBjb21tb2RpdHkgUEhQIHVwbG9hZC1wcm9ncmVzcyBleHBsb2l0YXRpb24ga2l0cyIKcnVsZXM6CiAgLSB6b25lczoKICAgICAgLSBIRUFERVJTCiAgICB2YXJpYWJsZXM6CiAgICAgIC0gVXNlci1BZ2VudAogICAgbWF0Y2g6CiAgICAgIHR5cGU6IHJlZ2V4CiAgICAgIHZhbHVlOiAoP2kpcGhwMnNoZWxsLVswLTldezEsMjB9CmxhYmVsczoKICByZW1lZGlhdGlvbjogdHJ1ZQogIHR5cGU6IGV4cGxvaXQKICBzZXJ2aWNlOiBodHRwCiAgY29uZmlkZW5jZTogNQogIHNwb29mYWJsZTogMQogIGJlaGF2aW9yOiAiaHR0cDpleHBsb2l0IgogIGxhYmVsOiAicGhwMnNoZWxsIGV4cGxvaXRhdGlvbiBraXQiCiAgY2xhc3NpZmljYXRpb246CiAgICAtIGF0dGFjay5UMTE5MAogICAgLSBjdmUuQ1ZFLTIwMjYtMTA5NjE4CiAgICAtIGN2ZS5DVkUtMjAyNi0xMDk2MTkKICAgIC0gY3dlLkNXRS00MTYK",
+      "description": "php2shell tooling user-agent: requests advertising 'php2shell-<digits>' in the User-Agent header, used by commodity PHP upload-progress exploitation kits",
+      "labels": {
+        "behavior": "http:exploit",
+        "classification": [
+          "attack.T1190",
+          "cve.CVE-2026-109618",
+          "cve.CVE-2026-109619",
+          "cwe.CWE-416"
+        ],
+        "confidence": 5,
+        "label": "php2shell exploitation kit",
+        "remediation": true,
+        "service": "http",
+        "spoofable": 1,
+        "type": "exploit"
+      },
+      "long_description": "QXBwU2VjIHJ1bGUgZm9yIHRoZSBgcGhwMnNoZWxsYCBjb21tb2RpdHkgZXhwbG9pdGF0aW9uIGtpdC4KCk9ic2VydmVkIGluIGFjY2VzcyBsb2dzIHdoaWxlIHRoaXMgcnVsZSB3YXMgYmVpbmcgd3JpdHRlbiwgb24gcmVxdWVzdHMgd2hvc2UKYFVzZXItQWdlbnRgIGhlYWRlciBjb250YWlucyBhIHBlci1jb25uZWN0aW9uIGNvdW50ZXI6CgpgYGB0ZXh0ClVzZXItQWdlbnQ6IHBocDJzaGVsbC0xMDk2MTkKQ29udGVudC1UeXBlOiBtdWx0aXBhcnQvZm9ybS1kYXRhOyBib3VuZGFyeT1CN2tRcG9jNjE5CgpVc2VyLUFnZW50OiBwaHAyc2hlbGwtMTA5NjE4CkNvbnRlbnQtVHlwZTogbXVsdGlwYXJ0L2Zvcm0tZGF0YTsgYm91bmRhcnk9QjdrUXBvYzYxOApgYGAKClRoZSBVc2VyLUFnZW50IGlzIHBhaXJlZCB3aXRoIGEgbXVsdGlwYXJ0IGJvZHkgLSB0aGUgc2FtZSBzaGFwZSBhcyB0aGUgUEhQCmBzZXNzaW9uLnVwbG9hZF9wcm9ncmVzc2AgYWJ1c2UgY292ZXJlZCBieSB0aGUKYGRhbmllbHBldHJpY2EvcGhwLXVwbG9hZC1wcm9ncmVzc2AgcnVsZSAtIHNvIHRoZSBVQSBhbG9uZSBpcyB0cmVhdGVkIGFzCmV4cGxvaXRhdGlvbiB0b29saW5nIHJhdGhlciB0aGFuIGEgc2Nhbi4KClRoZSBoZWFkZXIgdmFsdWUgaXMgdHJpdmlhbGx5IHNwb29mYWJsZSwgd2hpY2ggaXMgd2h5IHRoaXMgcnVsZSBpcyBub3QgcmVsaWVkCnVwb24gYWxvbmU7IHBhaXJlZCB3aXRoIHRoZSBgcGhwMnNoZWxsYCBsb2cgc2NlbmFyaW8gaXQgZ2l2ZXMgZWFybHktd2FybmluZwp2aXNpYmlsaXR5IGV2ZW4gb24gc2V0dXBzIHdoZXJlIEFwcFNlYyBpcyBub3QgZGVwbG95ZWQuCgpUaGlzIHJ1bGUgcmVxdWlyZXMgdGhlIGBjcm93ZHNlY3VyaXR5L2Jhc2UtY29uZmlnYCBhcHBzZWMgcnVsZSAoaXQgc2hpcHMgd2l0aCBhbgpgYXBwc2VjLWNvbmZpZ2ApLCBvciBhbnkgYXBwc2VjIGNvbmZpZyB0aGF0IGltcGxlbWVudHMgaXQuCg==",
+      "path": "appsec-rules/danielpetrica/php2shell-user-agent.yaml",
+      "version": "0.3",
+      "versions": {
+        "0.1": {
+          "deprecated": false,
+          "digest": "0478899cb43d4a8bfc22c16d1a48b673c8272e37faf434faf15837c4d47ab5bf"
+        },
+        "0.2": {
+          "deprecated": false,
+          "digest": "6311736e25a891d873b8e60c94306b8ef65904a95dd33a452e34d1ae04130f0a"
+        },
+        "0.3": {
+          "deprecated": false,
+          "digest": "4523bb5b4f52e062455e59d1ee60fa0fcd1ea3fad5385bc4c0200097e73eef85"
+        }
+      }
     }
   },
   "collections": {
@@ -12855,6 +12977,47 @@
         "0.2": {
           "deprecated": false,
           "digest": "657c84c8ade462fc437377af98f80194ec42c22566dc552c4e737a9f4f77005a"
+        }
+      }
+    },
+    "danielpetrica/php-upload-progress": {
+      "appsec-configs": [
+        "danielpetrica/php-upload-progress"
+      ],
+      "appsec-rules": [
+        "danielpetrica/php-upload-progress",
+        "danielpetrica/php-ini-injection-probe",
+        "danielpetrica/php2shell-user-agent"
+      ],
+      "author": "danielpetrica",
+      "content": "bmFtZTogZGFuaWVscGV0cmljYS9waHAtdXBsb2FkLXByb2dyZXNzCmF1dGhvcjogZGFuaWVscGV0cmljYQpkZXNjcmlwdGlvbjogIlBIUCBzZXNzaW9uLnVwbG9hZF9wcm9ncmVzcyBhYnVzZSAvIExGSS10aHJvdWdoLXNlc3Npb24tZmlsZSBkZXRlY3Rpb246IEFwcFNlYyBydWxlcyAobXVsdGlwYXJ0IHNpZ25hdHVyZSArIHdyYXBwZXIvaW5qZWN0aW9uIHByb2JlcykgYW5kIGEgbG9nLWJhc2VkIHRyaWdnZXIgc2NlbmFyaW8gZm9yIFVSTC12aXNpYmxlIHBheWxvYWRzIgpzY2VuYXJpb3M6CiAgLSBkYW5pZWxwZXRyaWNhL3BocC11cGxvYWQtcHJvZ3Jlc3MtcHJvYmUKICAtIGRhbmllbHBldHJpY2EvYXBwc2VjLXBocDJzaGVsbC1iYW4KYXBwc2VjLWNvbmZpZ3M6CiAgLSBkYW5pZWxwZXRyaWNhL3BocC11cGxvYWQtcHJvZ3Jlc3MKYXBwc2VjLXJ1bGVzOgogIC0gZGFuaWVscGV0cmljYS9waHAtdXBsb2FkLXByb2dyZXNzCiAgLSBkYW5pZWxwZXRyaWNhL3BocC1pbmktaW5qZWN0aW9uLXByb2JlCiAgLSBkYW5pZWxwZXRyaWNhL3BocDJzaGVsbC11c2VyLWFnZW50CmxhYmVsczoKICBsYWJlbDogIlBIUCB1cGxvYWQtcHJvZ3Jlc3MgYWJ1c2UiCnRhZ3M6CiAgLSBzZWN1cml0eV9lbmdpbmUKICAtIHdlYgogIC0gZXhwbG9pdAo=",
+      "description": "PHP session.upload_progress abuse / LFI-through-session-file detection: AppSec rules (multipart signature + wrapper/injection probes) and a log-based trigger scenario for URL-visible payloads",
+      "labels": {
+        "label": "PHP upload-progress abuse"
+      },
+      "long_description": "IyBkYW5pZWxwZXRyaWNhL3BocC11cGxvYWQtcHJvZ3Jlc3MKCkRldGVjdGlvbiBwYWNrYWdlIGZvciB0aGUgUEhQIGBzZXNzaW9uLnVwbG9hZF9wcm9ncmVzc2AgYWJ1c2UgdGVjaG5pcXVlIGFuZCB0aGUKUEhQIHdyYXBwZXIgLyBpbmktaW5qZWN0aW9uIHByb2JlcyB0aGF0IHVzdWFsbHkgY29tZSB3aXRoIGl0LgoKIyMgV2hhdCBpdCBpbnN0YWxscwoKfCBUeXBlIHwgSXRlbSB8IERldGVjdHMgfAp8LS0tfC0tLXwtLS18Cnwgc2NlbmFyaW8gfCBgZGFuaWVscGV0cmljYS9waHAtdXBsb2FkLXByb2dyZXNzLXByb2JlYCB8IFVSTC12aXNpYmxlIHBheWxvYWRzIChgcGhwOi8vZmlsdGVyYCwgYGF1dG9fcHJlcGVuZF9maWxlYCwgYHBocC1jZ2lgLCBgJUFEJUFEYCkgaW4gYWNjZXNzIGxvZ3MgfAp8IGFwcHNlYy1jb25maWcgfCBgZGFuaWVscGV0cmljYS9waHAtdXBsb2FkLXByb2dyZXNzYCB8IGluLWJhbmQgYmxvY2tpbmcsIGRlZmF1bHQgcmVtZWRpYXRpb24gYGJhbmAgfAp8IGFwcHNlYy1ydWxlIHwgYGRhbmllbHBldHJpY2EvcGhwLXVwbG9hZC1wcm9ncmVzc2AgfCBtdWx0aXBhcnQgYm9keSBjb250YWluaW5nIHRoZSBgUEhQX1NFU1NJT05fVVBMT0FEX1BST0dSRVNTYCBwYXJ0IHwKfCBhcHBzZWMtcnVsZSB8IGBkYW5pZWxwZXRyaWNhL3BocC1pbmktaW5qZWN0aW9uLXByb2JlYCB8IFBIUCB3cmFwcGVyIC8gaW5pIGRpcmVjdGl2ZSBpbmplY3Rpb24gcHJvYmVzIHwKfCBhcHBzZWMtcnVsZSB8IGBkYW5pZWxwZXRyaWNhL3BocDJzaGVsbC11c2VyLWFnZW50YCB8IGBwaHAyc2hlbGwtPGRpZ2l0cz5gIHVzZXItYWdlbnQgdXNlZCBieSBjb21tb2RpdHkgZXhwbG9pdGF0aW9uIGtpdHMgfAoKIyMgQmFja2dyb3VuZAoKV2l0aCBgc2Vzc2lvbi51cGxvYWRfcHJvZ3Jlc3MuZW5hYmxlZGAgb24gKHRoZSBQSFAgZGVmYXVsdCksIHRoZSBuYW1lIG9mIGEKbXVsdGlwYXJ0IGZvcm0gcGFydCBiZWNvbWVzIHRoZSBzZXNzaW9uIGtleSBwcmVmaXggYW5kIGl0cyBjb250ZW50IGlzIHdyaXR0ZW4KaW50byB0aGUgc2Vzc2lvbiBmaWxlLiBTZW5kaW5nIGBQSFBfU0VTU0lPTl9VUExPQURfUFJPR1JFU1NgIHdpdGggYSBwYXlsb2FkCnRoZXJlZm9yZSBtYWtlcyBhbiBhdHRhY2tlci1jb250cm9sbGVkICJQSFAgZmlsZSIgYXBwZWFyIHdoZXJldmVyIHNlc3Npb25zIGFyZQpzdG9yZWQuIENvbWJpbmVkIHdpdGggYW55IExGSSBvciBsb2ctcG9pc29uaW5nIHByaW1pdGl2ZSwgdGhhdCBpcyBhIG9uZS1zaG90ClJDRS4gUGFydGlhbCBtaXRpZ2F0aW9ucywgYXZhaWxhYmxlIHJpZ2h0IG5vdzoKCmBgYGluaQpzZXNzaW9uLnVwbG9hZF9wcm9ncmVzcy5lbmFibGVkID0gT2ZmCmBgYAoKIyMgQWNxdWlzaXRpb24gKGxvZyBzY2VuYXJpbykKCmBgYHlhbWwKZmlsZW5hbWVzOgogIC0gL3Zhci9sb2cvdHJhZWZpay9hY2Nlc3MubG9nCmxhYmVsczoKICB0eXBlOiB0cmFlZmlrCmBgYAoKVGhlIEFwcFNlYyBwYXJ0IHJlcXVpcmVzIGFuIEFwcFNlYy1hd2FyZSByZW1lZGlhdGlvbiBjb21wb25lbnQsIGUuZy4gdGhlClRyYWVmaWsgY3Jvd2RzZWMgYm91bmNlciBwbHVnaW4gd2l0aCBgY3Jvd2RzZWNBcHBzZWNFbmFibGVkOiB0cnVlYC4K",
+      "path": "collections/danielpetrica/php-upload-progress.yaml",
+      "scenarios": [
+        "danielpetrica/php-upload-progress-probe",
+        "danielpetrica/appsec-php2shell-ban"
+      ],
+      "version": "0.4",
+      "versions": {
+        "0.1": {
+          "deprecated": false,
+          "digest": "2baba978f63c7e48f34d26259f94cba23866e1474dcf02af5fb6563787c14c27"
+        },
+        "0.2": {
+          "deprecated": false,
+          "digest": "ea1a6f6840090fd19997a929dbdfc3283f86f3f83cca2f6c30566e1fe2581b93"
+        },
+        "0.3": {
+          "deprecated": false,
+          "digest": "c4a5caad0149a83eb61600bb5093d235bdcfbc7047546a3b33696ea98541fd10"
+        },
+        "0.4": {
+          "deprecated": false,
+          "digest": "34fe0dad4b3abd96a3f298e572e2a0bbb823075fa2c3adad77c09e3a5336b775"
         }
       }
     },
@@ -26041,6 +26204,73 @@
         "0.2": {
           "deprecated": false,
           "digest": "776a9eba197a9d05434cb16ea5343869c8788199b88d06cda94cc16d28f3aaac"
+        }
+      }
+    },
+    "danielpetrica/appsec-php2shell-ban": {
+      "author": "danielpetrica",
+      "content": "IyBUdXJuIEFwcFNlYyAoaW4tYmFuZCkgYmxvY2tzIG9uIHRoZSBwaHAyc2hlbGwgLyBQSFAgdXBsb2FkLXByb2dyZXNzIGtpdHMKIyBpbnRvIGltbWVkaWF0ZSBJUCBiYW5zLiBUaGUgYGNyb3dkc2VjdXJpdHkvYXBwc2VjLWxvZ3NgIHBhcnNlciBlbWl0cwojIGV2dC5NZXRhLmxvZ190eXBlID09ICJhcHBzZWMtYmxvY2siIGZvciBldmVyeSBibG9ja2VkIHJlcXVlc3QuCnR5cGU6IHRyaWdnZXIKbmFtZTogZGFuaWVscGV0cmljYS9hcHBzZWMtcGhwMnNoZWxsLWJhbgpkZXNjcmlwdGlvbjogIkJhbiBzb3VyY2UgSVBzIHdob3NlIHJlcXVlc3Qgd2FzIGJsb2NrZWQgYnkgdGhlIFBIUCB1cGxvYWQtcHJvZ3Jlc3MgLyBwaHAyc2hlbGwgQXBwU2VjIHJ1bGVzIgpmaWx0ZXI6IHwKICBldnQuTWV0YS5sb2dfdHlwZSA9PSAiYXBwc2VjLWJsb2NrIiAmJgogICgKICAgIGV2dC5NZXRhLnJ1bGVfbmFtZSA9PSAiZGFuaWVscGV0cmljYS9waHAtdXBsb2FkLXByb2dyZXNzIiB8fAogICAgZXZ0Lk1ldGEucnVsZV9uYW1lID09ICJkYW5pZWxwZXRyaWNhL3BocC1pbmktaW5qZWN0aW9uLXByb2JlIiB8fAogICAgZXZ0Lk1ldGEucnVsZV9uYW1lID09ICJkYW5pZWxwZXRyaWNhL3BocDJzaGVsbC11c2VyLWFnZW50IiB8fAogICAgZXZ0Lk1ldGEucnVsZV9uYW1lID09ICJjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyNi0xMDk2MTgiCiAgKQpncm91cGJ5OiAiZXZ0Lk1ldGEuc291cmNlX2lwIgpibGFja2hvbGU6IDVtCmxhYmVsczoKICBzZXJ2aWNlOiBodHRwCiAgdHlwZTogZXhwbG9pdAogIHJlbWVkaWF0aW9uOiB0cnVlCiAgY29uZmlkZW5jZTogNQogIHNwb29mYWJsZTogMAogIGJlaGF2aW9yOiAiaHR0cDpleHBsb2l0IgogIGxhYmVsOiAicGhwMnNoZWxsIC8gUEhQIHVwbG9hZC1wcm9ncmVzcyBBcHBTZWMgYmxvY2siCiAgY2xhc3NpZmljYXRpb246CiAgICAtIGF0dGFjay5UMTE5MAogICAgLSBjdmUuQ1ZFLTIwMjYtMTA5NjE4CiAgICAtIGN2ZS5DVkUtMjAyNi0xMDk2MTkKICAgIC0gY3dlLkNXRS00MTYK",
+      "description": "Ban source IPs whose request was blocked by the PHP upload-progress / php2shell AppSec rules",
+      "labels": {
+        "behavior": "http:exploit",
+        "classification": [
+          "attack.T1190",
+          "cve.CVE-2026-109618",
+          "cve.CVE-2026-109619",
+          "cwe.CWE-416"
+        ],
+        "confidence": 5,
+        "label": "php2shell / PHP upload-progress AppSec block",
+        "remediation": true,
+        "service": "http",
+        "spoofable": 0,
+        "type": "exploit"
+      },
+      "long_description": "QmFuIHNvdXJjZSBJUHMgd2hvc2UgcmVxdWVzdCB3YXMgYmxvY2tlZCBieSB0aGUgcGhwMnNoZWxsIC8gUEhQCnVwbG9hZC1wcm9ncmVzcyBBcHBTZWMgcnVsZXMuCgojIyBXaHkgdGhpcyBleGlzdHMKCkFwcFNlYyBpbi1iYW5kIG1hdGNoZXMgY3JlYXRlIGEgYHdhZmAgYWxlcnQgYnV0IGRvICoqbm90KiogZW1pdCBwaXBlbGluZQpldmVudHMgYnkgZGVmYXVsdCwgc28gYSBzY2VuYXJpbyBjYW5ub3Qgc2VlIHRoZW0gZGlyZWN0bHkuIFdoYXQgd29ya3MgaXMgdGhlCmBjcm93ZHNlY3VyaXR5L2FwcHNlYy1sb2dzYCBwYXJzZXIsIHdoaWNoIHR1cm5zIHRoZSBBcHBTZWMgZGF0YXNvdXJjZSBldmVudAppbnRvIGBldnQuTWV0YS5sb2dfdHlwZSA9PSAiYXBwc2VjLWJsb2NrImAgd2l0aCBgZXZ0Lk1ldGEucnVsZV9uYW1lYCBzZXQuClRoaXMgdHJpZ2dlciBzY2VuYXJpbyB0aGVuIGJhbnMgdGhlIHNvdXJjZSBvbiB0aGUgZmlyc3QgYmxvY2tlZCByZXF1ZXN0LgoKUmVxdWlyZXM6CgotIGBjcm93ZHNlY3VyaXR5L2FwcHNlYy1sb2dzYCBwYXJzZXIgaW5zdGFsbGVkCi0gYGNyb3dkc2VjdXJpdHkvc3lzbG9nLWxvZ3NgICsgYGNyb3dkc2VjdXJpdHkvZGF0ZXBhcnNlLWVucmljaGAgKENyb3dkU2VjIGRvZXMKICBub3QgZmVlZCBBcHBTZWMgZXZlbnRzIGludG8gdGhlIHBpcGVsaW5lIHdpdGhvdXQgdGhlbSkKLSBhIENyb3dkU2VjIHJlc3RhcnQgYWZ0ZXIgaW5zdGFsbGluZyB0aGUgcGFyc2VyIChhIEhVUCByZWxvYWQgaXMgbm90IGVub3VnaAogIGZvciB0aGUgYXBwc2VjIGRhdGFzb3VyY2UpCgpUaGUgYmFuIHJlYWNoZXMgdGhlIGJvdW5jZXIgb24gdGhlIG5leHQgZGVjaXNpb24tc3RyZWFtIHJlZnJlc2ggKDYwcyB3aXRoIHRoZQpUcmFlZmlrIHBsdWdpbiBkZWZhdWx0cyk7IHRoZSBvZmZlbmRpbmcgcmVxdWVzdCBpdHNlbGYgaXMgYmxvY2tlZCBpbi1iYW5kCmltbWVkaWF0ZWx5LgoKIyMgU2NvcGUKCk9ubHkgdGhlIHJ1bGVzIG9mIHRoaXMgY29sbGVjdGlvbiBhcmUgbWF0Y2hlZCwgc28gYW4gYWxlcnQgZnJvbSBDUlMgb3IgYW5vdGhlcgpydWxlIHNldCBzdGF5cyBhIGB3YWZgIGFsZXJ0IHdpdGhvdXQgYW4gYXV0b21hdGljIGJhbi4K",
+      "path": "scenarios/danielpetrica/appsec-php2shell-ban.yaml",
+      "version": "0.1",
+      "versions": {
+        "0.1": {
+          "deprecated": false,
+          "digest": "89673a49cf8f36e8c3754d7ccc40147d05b9bf6323ad658dea697d55fa4af0f0"
+        }
+      }
+    },
+    "danielpetrica/php-upload-progress-probe": {
+      "author": "danielpetrica",
+      "content": "IyBEZXRlY3RzIHByb2JlcyBhbmQgcGF5bG9hZHMgcmVsYXRlZCB0byB0aGUgUEhQIHNlc3Npb24udXBsb2FkX3Byb2dyZXNzCiMgYWJ1c2UgY2hhaW4sIHBsdXMgUEhQIHdyYXBwZXIgLyBpbmkgZGlyZWN0aXZlIGluamVjdGlvbiBzZWVuIGluIHRoZQojIHJlcXVlc3QgVVJMIChUcmFlZmlrIGxvZ3MgdGhlIGZ1bGwgcmVxdWVzdCBwYXRoIGluY2x1ZGluZyB0aGUgcXVlcnkKIyBzdHJpbmcgaW4gYFJlcXVlc3RQYXRoYCkuCnR5cGU6IHRyaWdnZXIKbmFtZTogZGFuaWVscGV0cmljYS9waHAtdXBsb2FkLXByb2dyZXNzLXByb2JlCmRlc2NyaXB0aW9uOiAiVHJpZ2dlciBzY2VuYXJpbyBkZXRlY3RpbmcgcHJvYmVzIGFuZCBwYXlsb2FkcyBvZiB0aGUgUEhQIHNlc3Npb24udXBsb2FkX3Byb2dyZXNzIGFidXNlIGNoYWluIChDVkUtMjAyNi0xMDk2MTggLyBDVkUtMjAyNi0xMDk2MTkpIGFuZCBQSFAgd3JhcHBlciAvIGluaS1pbmplY3Rpb24gcHJvYmVzIChwaHA6Ly9maWx0ZXIsIGF1dG9fcHJlcGVuZF9maWxlLCBwaHAtY2dpKSIKZmlsdGVyOiB8CiAgZXZ0Lk1ldGEubG9nX3R5cGUgaW4gWyJodHRwX2FjY2Vzcy1sb2ciLCAiaHR0cF9lcnJvci1sb2ciXSAmJgogIGV2dC5NZXRhLmh0dHBfcGF0aCAhPSBuaWwgJiYKICAoCiAgICBsb3dlcihldnQuTWV0YS5odHRwX3BhdGgpIGNvbnRhaW5zICJwaHA6Ly9maWx0ZXIiIHx8CiAgICBsb3dlcihldnQuTWV0YS5odHRwX3BhdGgpIGNvbnRhaW5zICJwaHAlM2ElMmYlMmZmaWx0ZXIiIHx8CiAgICBsb3dlcihldnQuTWV0YS5odHRwX3BhdGgpIGNvbnRhaW5zICJwaHA6Ly9pbnB1dCIgfHwKICAgIGxvd2VyKGV2dC5NZXRhLmh0dHBfcGF0aCkgY29udGFpbnMgInBocCUzYSUyZiUyZmlucHV0IiB8fAogICAgbG93ZXIoZXZ0Lk1ldGEuaHR0cF9wYXRoKSBjb250YWlucyAiYXV0b19wcmVwZW5kX2ZpbGUiIHx8CiAgICBsb3dlcihldnQuTWV0YS5odHRwX3BhdGgpIGNvbnRhaW5zICJhbGxvd191cmxfaW5jbHVkZSIgfHwKICAgIGxvd2VyKGV2dC5NZXRhLmh0dHBfcGF0aCkgY29udGFpbnMgInBocF9zZXNzaW9uX3VwbG9hZF9wcm9ncmVzcyIgfHwKICAgIGxvd2VyKGV2dC5NZXRhLmh0dHBfcGF0aCkgY29udGFpbnMgInBocF92YWx1ZSIgfHwKICAgIGxvd2VyKGV2dC5NZXRhLmh0dHBfcGF0aCkgY29udGFpbnMgInBocF9hZG1pbl92YWx1ZSIgfHwKICAgIGxvd2VyKGV2dC5NZXRhLmh0dHBfcGF0aCkgY29udGFpbnMgInBocC1jZ2kiIHx8CiAgICBsb3dlcihldnQuTWV0YS5odHRwX3BhdGgpIGNvbnRhaW5zICIvY2dpLWJpbi9waHAiIHx8CiAgICBsb3dlcihldnQuTWV0YS5odHRwX3BhdGgpIGNvbnRhaW5zICIlYWQlYWQiIHx8CiAgICBldnQuTWV0YS5odHRwX3VzZXJfYWdlbnQgbWF0Y2hlcyAiKD9pKXBocDJzaGVsbC1bMC05XXsxLDIwfSIKICApCmdyb3VwYnk6ICJldnQuTWV0YS5zb3VyY2VfaXAiCmJsYWNraG9sZTogMm0KbGFiZWxzOgogIHNlcnZpY2U6IGh0dHAKICB0eXBlOiBleHBsb2l0CiAgYmVoYXZpb3I6ICJodHRwOmV4cGxvaXQiCiAgbGFiZWw6ICJQSFAgdXBsb2FkLXByb2dyZXNzIC8gaW5pLWluamVjdGlvbiBwcm9iZSIKICBjb25maWRlbmNlOiAzCiAgc3Bvb2ZhYmxlOiAwCiAgcmVtZWRpYXRpb246IHRydWUKICBjbGFzc2lmaWNhdGlvbjoKICAgIC0gYXR0YWNrLlQxNTk1CiAgICAtIGF0dGFjay5UMTE5MAogICAgLSBjdmUuQ1ZFLTIwMjYtMTA5NjE4CiAgICAtIGN2ZS5DVkUtMjAyNi0xMDk2MTkKICAgIC0gY3dlLkNXRS00MTYK",
+      "description": "Trigger scenario detecting probes and payloads of the PHP session.upload_progress abuse chain (CVE-2026-109618 / CVE-2026-109619) and PHP wrapper / ini-injection probes (php://filter, auto_prepend_file, php-cgi)",
+      "labels": {
+        "behavior": "http:exploit",
+        "classification": [
+          "attack.T1595",
+          "attack.T1190",
+          "cve.CVE-2026-109618",
+          "cve.CVE-2026-109619",
+          "cwe.CWE-416"
+        ],
+        "confidence": 3,
+        "label": "PHP upload-progress / ini-injection probe",
+        "remediation": true,
+        "service": "http",
+        "spoofable": 0,
+        "type": "exploit"
+      },
+      "long_description": "VHJpZ2dlciBzY2VuYXJpbyBkZXRlY3RpbmcgcHJvYmVzIGFuZCBwYXlsb2FkcyBvZiB0aGUgUEhQIGBzZXNzaW9uLnVwbG9hZF9wcm9ncmVzc2AKYWJ1c2UgY2hhaW4sIGFzIHdlbGwgYXMgUEhQIHdyYXBwZXIgLyBpbmkgZGlyZWN0aXZlIGluamVjdGlvbiwgaW4gSFRUUCBhY2Nlc3MgbG9ncy4KCiMjIE1vdGl2YXRpb24KClBIUCB3aXRoIGBzZXNzaW9uLnVwbG9hZF9wcm9ncmVzcy5lbmFibGVkYCBsZWZ0IGF0IGl0cyBkZWZhdWx0IChgT25gKSBsZXRzIGFuCmF0dGFja2VyIHdyaXRlIGF0dGFja2VyLWNvbnRyb2xsZWQgY29udGVudCBpbnRvIGEgc2Vzc2lvbiBmaWxlIGJ5IHNlbmRpbmcgYQptdWx0aXBhcnQgcGFydCBuYW1lZCBgUEhQX1NFU1NJT05fVVBMT0FEX1BST0dSRVNTYC4gQ29tYmluZWQgd2l0aCBhbnkgbG9jYWwKZmlsZSBpbmNsdXNpb24gb3IgbG9nIHBvaXNvbmluZyBwcmltaXRpdmUsIHRoaXMgYmVjb21lcyBhIHJlbGlhYmxlIFJDRS4KClRoaXMgc2NlbmFyaW8gY2F0Y2hlcyB0aGUgKipVUkwtdmlzaWJsZSoqIGhhbGYgb2YgdGhlIHRlY2huaXF1ZTogTEZJIGFuZAppbmktaW5qZWN0aW9uIHBheWxvYWRzIHNlbnQgaW4gdGhlIHF1ZXJ5IHN0cmluZyBvciBwYXRoIChmb3IgZXhhbXBsZQpgP3A9cGhwOi8vZmlsdGVyL3JlYWQ9Y29udmVydC5iYXNlNjQtZW5jb2RlL3Jlc291cmNlPS4uLmAsIGBhdXRvX3ByZXBlbmRfZmlsZT1gLApgYWxsb3dfdXJsX2luY2x1ZGU9YCwgYFBIUF9WQUxVRT1gLCBgcGhwLWNnaWAsIGFuZCB0aGUgYCVBRCVBRGAgc29mdC1oeXBoZW4Kb2JmdXNjYXRpb24gdXNlZCBieSBQSFAtQ0dJIGFyZ3VtZW50LWluamVjdGlvbiBleHBsb2l0cykuCgpUaGUgYm9keS1zaWRlIHNpZ25hdHVyZSAoYFBIUF9TRVNTSU9OX1VQTE9BRF9QUk9HUkVTU2AgaW4gYSBtdWx0aXBhcnQgYm9keSkKY2Fubm90IGJlIHNlZW4gaW4gYWNjZXNzIGxvZ3M7IGl0IGlzIGNvdmVyZWQgYnkgdGhlIGFwcHNlYyBydWxlCmBkYW5pZWxwZXRyaWNhL3BocC11cGxvYWQtcHJvZ3Jlc3NgIGluIHRoaXMgY29sbGVjdGlvbi4KCiMjIFBheWxvYWQgZXhhbXBsZXMKCmBgYHRleHQKR0VUIC9pbmRleC5waHA/cD1waHA6Ly9maWx0ZXIvcmVzb3VyY2U9Li4vLi4vZXRjL3Bhc3N3ZCBIVFRQLzEuMQpHRVQgL2luZGV4LnBocD9hdXRvX3ByZXBlbmRfZmlsZT0vdG1wL3B3biBIVFRQLzEuMQpQT1NUIC9jZ2ktYmluL3BocD8lMkRkJTIwYWxsb3dfdXJsX2luY2x1ZGUlM0RPbiUyMCUyRGQlMjBhdXRvX3ByZXBlbmRfZmlsZSUzRGh0dHA6Ly9ldmlsLmV4YW1wbGUveCUyMCUyRG4gSFRUUC8xLjEKYGBgCgojIyBSZW1lZGlhdGlvbgoKSVAtYmxvY2sgdGhlIHNvdXJjZS4gQWxzbyBkaXNhYmxlIGBzZXNzaW9uLnVwbG9hZF9wcm9ncmVzcy5lbmFibGVkYCBpbgpgcGhwLmluaWAgdW50aWwgdGhlIHJlbGV2YW50IHZ1bG5lcmFiaWxpdHkgaXMgcGF0Y2hlZC4KCiMjIEFjcXVpc2l0aW9uCgpgYGB5YW1sCmZpbGVuYW1lczoKICAtIC92YXIvbG9nL3RyYWVmaWsvYWNjZXNzLmxvZwpsYWJlbHM6CiAgdHlwZTogdHJhZWZpawpgYGAK",
+      "path": "scenarios/danielpetrica/php-upload-progress-probe.yaml",
+      "version": "0.3",
+      "versions": {
+        "0.1": {
+          "deprecated": false,
+          "digest": "561cb9f009c712c62770a5751c5edbabc6fb0fe178710469e5443fc5222027ff"
+        },
+        "0.2": {
+          "deprecated": false,
+          "digest": "54bf02981e5778b5289a38c52a7991bf8270747b1dca69de3bc2606954b4ea2b"
+        },
+        "0.3": {
+          "deprecated": false,
+          "digest": "029cf6cf7ddaaa605191ef9edc6ffd269242a504332ac73678aabf4b1d3f07aa"
         }
       }
     },

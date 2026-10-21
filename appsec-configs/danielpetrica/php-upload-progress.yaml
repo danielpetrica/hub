@@ -1,0 +1,11 @@
+name: danielpetrica/php-upload-progress
+default_remediation: ban
+blocked_http_code: 403
+inband_rules:
+  - crowdsecurity/base-config
+  - danielpetrica/php-upload-progress
+  - danielpetrica/php-ini-injection-probe
+  - danielpetrica/php2shell-user-agent
+inband_options:
+  disable_body_inspection: false
+  request_body_in_memory_limit: 1048576

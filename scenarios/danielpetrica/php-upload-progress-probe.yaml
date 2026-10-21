@@ -1,0 +1,41 @@
+# Detects probes and payloads related to the PHP session.upload_progress
+# abuse chain, plus PHP wrapper / ini directive injection seen in the
+# request URL (Traefik logs the full request path including the query
+# string in `RequestPath`).
+type: trigger
+name: danielpetrica/php-upload-progress-probe
+description: "Trigger scenario detecting probes and payloads of the PHP session.upload_progress abuse chain (CVE-2026-109618 / CVE-2026-109619) and PHP wrapper / ini-injection probes (php://filter, auto_prepend_file, php-cgi)"
+filter: |
+  evt.Meta.log_type in ["http_access-log", "http_error-log"] &&
+  evt.Meta.http_path != nil &&
+  (
+    lower(evt.Meta.http_path) contains "php://filter" ||
+    lower(evt.Meta.http_path) contains "php%3a%2f%2ffilter" ||
+    lower(evt.Meta.http_path) contains "php://input" ||
+    lower(evt.Meta.http_path) contains "php%3a%2f%2finput" ||
+    lower(evt.Meta.http_path) contains "auto_prepend_file" ||
+    lower(evt.Meta.http_path) contains "allow_url_include" ||
+    lower(evt.Meta.http_path) contains "php_session_upload_progress" ||
+    lower(evt.Meta.http_path) contains "php_value" ||
+    lower(evt.Meta.http_path) contains "php_admin_value" ||
+    lower(evt.Meta.http_path) contains "php-cgi" ||
+    lower(evt.Meta.http_path) contains "/cgi-bin/php" ||
+    lower(evt.Meta.http_path) contains "%ad%ad" ||
+    evt.Meta.http_user_agent matches "(?i)php2shell-[0-9]{1,20}"
+  )
+groupby: "evt.Meta.source_ip"
+blackhole: 2m
+labels:
+  service: http
+  type: exploit
+  behavior: "http:exploit"
+  label: "PHP upload-progress / ini-injection probe"
+  confidence: 3
+  spoofable: 0
+  remediation: true
+  classification:
+    - attack.T1595
+    - attack.T1190
+    - cve.CVE-2026-109618
+    - cve.CVE-2026-109619
+    - cwe.CWE-416

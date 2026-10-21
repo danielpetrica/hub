@@ -1,0 +1,51 @@
+id: php2shell-user-agent
+
+info:
+  name: php2shell exploitation kit user-agent
+  author: danielpetrica
+  severity: high
+  description: |
+    Sends a multipart request with the `php2shell-<digits>` User-Agent
+    emitted by the commodity php2shell kit. The WAF must block it with 403.
+  tags: appsec-testing
+
+http:
+  - method: POST
+    path:
+      - "{{BaseURL}}/"
+    headers:
+      User-Agent: php2shell-109619
+      Content-Type: multipart/form-data; boundary=B7kQpoc619
+    body: |
+      --B7kQpoc619
+      Content-Disposition: form-data; name="PHP_SESSION_UPLOAD_PROGRESS"
+
+      pwned
+      --B7kQpoc619
+      Content-Disposition: form-data; name="file"; filename="sess_test"
+      Content-Type: application/octet-stream
+
+      <?php system($_GET["c"]); ?>
+      --B7kQpoc619--
+    matchers:
+      - type: status
+        status:
+          - 403
+
+  - method: POST
+    path:
+      - "{{BaseURL}}/"
+    headers:
+      User-Agent: php2shell-109618
+      Content-Type: multipart/form-data; boundary=B7kQpoc618
+    body: |
+      --B7kQpoc618
+      Content-Disposition: form-data; name="file"; filename="sess_test"
+      Content-Type: application/octet-stream
+
+      <?php system($_GET["c"]); ?>
+      --B7kQpoc618--
+    matchers:
+      - type: status
+        status:
+          - 403

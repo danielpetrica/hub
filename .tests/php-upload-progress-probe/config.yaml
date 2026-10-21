@@ -1,0 +1,13 @@
+parsers:
+- ./parsers/s01-parse/crowdsecurity/traefik-logs.yaml
+- crowdsecurity/syslog-logs
+- crowdsecurity/dateparse-enrich
+- crowdsecurity/http-logs
+scenarios:
+- ./scenarios/danielpetrica/php-upload-progress-probe.yaml
+postoverflows:
+- ""
+log_file: php-upload-progress-probe.log
+log_type: traefik
+labels: {}
+ignore_parsers: true

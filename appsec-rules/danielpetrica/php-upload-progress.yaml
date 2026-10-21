@@ -1,0 +1,29 @@
+name: danielpetrica/php-upload-progress
+description: "PHP session.upload_progress abuse (CVE-2026-109618 / CVE-2026-109619): multipart body carrying the PHP_SESSION_UPLOAD_PROGRESS field. Combined with any LFI this yields RCE. Near-zero false positives: no legitimate application uses this part name. Broader than crowdsecurity/vpatch-CVE-2026-109618, which additionally requires a filename and non-empty payload; ours matches on the field name alone."
+rules:
+  - and:
+      - zones:
+          - METHOD
+        match:
+          type: equals
+          value: POST
+      - zones:
+          - BODY_ARGS_NAMES
+        transform:
+          - lowercase
+        match:
+          type: contains
+          value: php_session_upload_progress
+labels:
+  remediation: true
+  type: exploit
+  service: http
+  confidence: 4
+  spoofable: 0
+  behavior: "http:exploit"
+  label: "PHP session.upload_progress exploit attempt"
+  classification:
+    - attack.T1190
+    - cve.CVE-2026-109618
+    - cve.CVE-2026-109619
+    - cwe.CWE-416

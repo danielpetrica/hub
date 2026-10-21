@@ -1,0 +1,18 @@
+name: danielpetrica/php-upload-progress
+author: danielpetrica
+description: "PHP session.upload_progress abuse / LFI-through-session-file detection: AppSec rules (multipart signature + wrapper/injection probes) and a log-based trigger scenario for URL-visible payloads"
+scenarios:
+  - danielpetrica/php-upload-progress-probe
+  - danielpetrica/appsec-php2shell-ban
+appsec-configs:
+  - danielpetrica/php-upload-progress
+appsec-rules:
+  - danielpetrica/php-upload-progress
+  - danielpetrica/php-ini-injection-probe
+  - danielpetrica/php2shell-user-agent
+labels:
+  label: "PHP upload-progress abuse"
+tags:
+  - security_engine
+  - web
+  - exploit

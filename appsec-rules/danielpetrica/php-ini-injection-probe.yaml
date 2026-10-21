@@ -1,0 +1,28 @@
+name: danielpetrica/php-ini-injection-probe
+description: "PHP wrapper / ini directive injection probing: php://filter, php://input, auto_prepend_file, allow_url_include, PHP_VALUE, php-cgi argument injection and %AD%AD soft-hyphen obfuscation seen in the request URI"
+rules:
+  - zones:
+      - URI_FULL
+    transform:
+      - urldecode
+      - lowercase
+    match:
+      type: regex
+      value: (php://(filter|input)|php%3a%2f%2f(filter|input)|auto_prepend_file|allow_url_include|php_value|php_admin_value|/cgi-bin/php|%ad%ad)
+  - zones:
+      - BODY_ARGS_NAMES
+    transform:
+      - lowercase
+    match:
+      type: regex
+      value: (php_value|php_admin_value|auto_prepend_file|allow_url_include)
+labels:
+  remediation: true
+  type: exploit
+  service: http
+  confidence: 3
+  spoofable: 1
+  behavior: "http:exploit"
+  label: "PHP wrapper / ini injection probe"
+  classification:
+    - attack.T1190

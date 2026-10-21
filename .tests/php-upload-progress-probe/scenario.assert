@@ -1,0 +1,14 @@
+len(results) == 1
+results[0].Overflow.Alert.GetScenario() == "danielpetrica/php-upload-progress-probe"
+results[0].Overflow.Alert.Remediation == true
+results[0].Overflow.Sources["203.0.113.9"].IP == "203.0.113.9"
+results[0].Overflow.Alert.Events[0].GetMeta("http_path") == "/index.php?p=php://filter&x=1"
+results[0].Overflow.Alert.Events[0].GetMeta("source_ip") == "203.0.113.9"
+results[0].Overflow.Alert.Events[0].GetMeta("http_verb") == "GET"
+results[0].Overflow.Alert.Events[0].GetMeta("log_type") == "http_access-log"
+results[0].Overflow.Alert.Events[0].GetMeta("http_status") == "403"
+results[1].Overflow.Alert.GetScenario() == "danielpetrica/php-upload-progress-probe"
+results[1].Overflow.Alert.Remediation == true
+results[1].Overflow.Sources["203.0.113.8"].IP == "203.0.113.8"
+results[1].Overflow.Alert.Events[0].GetMeta("http_user_agent") == "php2shell-109619"
+results[1].Overflow.Alert.Events[0].GetMeta("http_verb") == "POST"

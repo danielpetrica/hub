@@ -1,0 +1,3 @@
+appsec-rules:
+- ./appsec-rules/danielpetrica/php2shell-user-agent.yaml
+nuclei_template: php2shell-user-agent.yaml

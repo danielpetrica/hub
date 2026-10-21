@@ -1,0 +1,33 @@
+id: php-upload-progress
+
+info:
+  name: PHP session.upload_progress abuse - multipart signature
+  author: danielpetrica
+  severity: high
+  description: |
+    Sends a multipart request whose part name is PHP_SESSION_UPLOAD_PROGRESS,
+    the signature of the PHP session upload-progress LFI-to-RCE technique.
+    The WAF must block it with 403.
+  tags: appsec-testing
+
+http:
+  - method: POST
+    path:
+      - "{{BaseURL}}/"
+    headers:
+      Content-Type: multipart/form-data; boundary=----crowdsectest
+    body: |
+      ------crowdsectest
+      Content-Disposition: form-data; name="PHP_SESSION_UPLOAD_PROGRESS"
+
+      upload-progress-payload
+      ------crowdsectest
+      Content-Disposition: form-data; name="file"; filename="sess_test"
+      Content-Type: application/octet-stream
+
+      <?php system($_GET["c"]); ?>
+      ------crowdsectest--
+    matchers:
+      - type: status
+        status:
+          - 403
